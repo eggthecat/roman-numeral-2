@@ -1,5 +1,4 @@
 // business logic
-
 var romanNumeralOutput = [""];
 romanNumeralOutput.join(" ");
 
@@ -71,6 +70,7 @@ $(document).ready(function() {
     // console.log("working")
     var number = parseInt($("input#number").val());
   toRomanNumeral(number);
+
 
     $("h1#result").text(romanNumeralOutput);
 
